@@ -1,6 +1,6 @@
 proxies:
 
-- name: ovh cacerts.digicert.com
+- name: ovh cacerts.digicert.com coba1
   type: trojan
   server: sg6-trojan.bonds.id
   port: 443
@@ -9,7 +9,7 @@ proxies:
   sni: statics.teams.cdn.office.net
   skip-cert-verify: true
 
-- name: sg he3
+- name: sg he3 coba1
   type: trojan
   server: sg3-trojan.bonds.id
   port: 443
