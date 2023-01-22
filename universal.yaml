@@ -1,0 +1,19 @@
+proxies:
+
+- name: ovh cacerts.digicert.com
+  type: trojan
+  server: sg6-trojan.bonds.id
+  port: 443
+  password: bcd7c1d0-9a25-11ed-bbc9-1239d0255272
+  udp: true
+  sni: statics.teams.cdn.office.net
+  skip-cert-verify: true
+
+- name: sg he3
+  type: trojan
+  server: sg3-trojan.bonds.id
+  port: 443
+  password: 17357bf0-9a26-11ed-a3ad-1239d0255272
+  udp: true
+  sni: statics.teams.cdn.office.net
+  skip-cert-verify: true
